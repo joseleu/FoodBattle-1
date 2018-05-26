@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/loginback">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="28sp"
+        android:layout_marginTop="29sp"
+        android:layout_weight="0.08"
+        android:padding="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="15sp">
+
+            <EditText
+                android:id="@+id/sign_up_account"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10sp"
+                android:background="@drawable/rounded_edittext2"
+                android:ems="10"
+                android:hint="@string/account"
+                android:inputType="textPersonName"
+                android:padding="7sp" />
+
+            <Button
+                android:id="@+id/check_account"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:background="@drawable/rounded_button2"
+                android:padding="6sp"
+                android:text="@string/check"
+                android:textColor="@color/white" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="200sp"
+            android:layout_height="match_parent"
+            android:paddingBottom="15sp">
+
+            <EditText
+                android:id="@+id/sign_up_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/rounded_edittext2"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="7sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="15sp">
+
+            <EditText
+                android:id="@+id/sign_up_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/rounded_edittext2"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="7sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="15sp">
+
+            <EditText
+                android:id="@+id/check_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/rounded_edittext2"
+                android:ems="10"
+                android:hint="@string/check_password"
+                android:inputType="textPassword"
+                android:padding="7sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/log_in_direct"
+        android:layout_width="349sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:layout_marginStart="4dp"
+        android:gravity="end"
+        android:onClick="login_direct"
+        android:text="@string/go_to_login"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="158sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="Register_Click"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+</android.support.constraint.ConstraintLayout>

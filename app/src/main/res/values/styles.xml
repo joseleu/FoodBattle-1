@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orangePink</item>
+        <item name="colorPrimaryDark">@color/orangePink</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:navigationBarColor">@color/navigation_bar</item>
+    </style>
+
+</resources>
+

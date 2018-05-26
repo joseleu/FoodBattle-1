@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "902596252449",
+    "firebase_url": "https://foodbattle-c6b75.firebaseio.com",
+    "project_id": "foodbattle-c6b75",
+    "storage_bucket": "foodbattle-c6b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902596252449:android:aff6448d468939d6",
+        "android_client_info": {
+          "package_name": "com.example.jam68ty.foodbattle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902596252449-ugtpk74bdul850gpjshvo7a2kmsmr7aq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jam68ty.foodbattle",
+            "certificate_hash": "64f17eb32f274c966bc148399bdfe243ecf07b2e"
+          }
+        },
+        {
+          "client_id": "902596252449-gqohptlml01siuh0mi1h4j4srfrkqpfq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "902596252449-gqohptlml01siuh0mi1h4j4srfrkqpfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5yXavhPkqh3FzX-XDCe7Aa7BrmzsW2LM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902596252449-gqohptlml01siuh0mi1h4j4srfrkqpfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

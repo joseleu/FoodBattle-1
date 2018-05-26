@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkGray">#1b1a1a</color>
+    <color name="white">#ffffff</color>
+    <color name="transWhite">#80ffffff</color>
+    <color name="orange">#ed571b</color>
+    <color name="tranOrange">#b1c84632</color>
+    <color name="orangePink">#c84632</color>
+    <color name="tranOrangePink">#8be73d2a</color>
+    <color name="navigation_bar">#dd4a32</color>
+</resources>
+
