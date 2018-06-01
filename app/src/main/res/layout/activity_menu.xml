@@ -27,6 +27,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true">
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登出"
+            android:onClick="Sign_out_Btn"/>
     </FrameLayout>
 
 </RelativeLayout>

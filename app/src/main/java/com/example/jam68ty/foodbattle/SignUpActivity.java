@@ -60,7 +60,7 @@ public class SignUpActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 progressDialog.dismiss();
                 if (task.isSuccessful()) {
-                    Toast.makeText(SignUpActivity.this, "regist sucessful", Toast.LENGTH_SHORT).show();//顯示
+                    Toast.makeText(SignUpActivity.this, "註冊成功", Toast.LENGTH_SHORT).show();//顯示
 
 
                     FirebaseUser user = firebaseAuth.getCurrentUser();
@@ -89,6 +89,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                     Intent i = new Intent(SignUpActivity.this, MenuActivity.class);
                     startActivity(i);
+
                 } else {
                     Log.e("Error", task.getException().toString());
                     Toast.makeText(SignUpActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();

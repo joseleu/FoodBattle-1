@@ -91,7 +91,6 @@ public class MenuActivity extends AppCompatActivity {
 
     private void signOut() {
         firebaseAuth.signOut();
-
     }
 
 }
